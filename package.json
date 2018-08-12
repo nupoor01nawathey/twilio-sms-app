@@ -1,14 +1,19 @@
 {
-  "name": "twilio-app-nodejs",
+  "name": "sms-otp-node",
   "version": "1.0.0",
-  "description": "",
+  "description": "send otp sms",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Nupoor Nawathey",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "nexmo": "^2.3.2",
+    "socket.io": "^2.1.1",
     "twilio": "^3.19.1"
   }
 }
